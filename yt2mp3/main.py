@@ -6,7 +6,7 @@ def download_song(video):
                                'outtmpl': "output\\" + video['title'].replace("/", " ") + ".mp3"}) as ydl:
         ydl.download([video['url']])
 
-def donwload(n): # Specify the number of processes you want to run concurrently
+def download(n): # Specify the number of processes you want to run concurrently
     input_file = open("input.txt", 'r')
     playlist_url = input_file.read()
 

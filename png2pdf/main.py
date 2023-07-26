@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 
-png_folder = r'C:\Users\33613\Desktop\convertisseurs\png2pdf\png'
-pdf_folder = r'C:\Users\33613\Desktop\convertisseurs\png2pdf\pdf' 
+png_folder = 'input'
+pdf_folder = 'output' 
 
 
 for i in os.listdir(pdf_folder):

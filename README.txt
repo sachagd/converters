@@ -1,5 +1,5 @@
 For each converter, you need to add a output folder or/and a input folder if needed (be smart, if there is already a txt named input there is no need to create a input folder)
-the fact is i'm too stupid to figure it out how to add empty folder in a git in github
+the fact is i'm too stupid to figure it out how to add empty folder in github
 
 Go read the correponding README of the converter you want to use, some adds very usefull stuff (but some don't)
 

@@ -1,8 +1,14 @@
-for each one, you need to add a output folder or/and a input folder 
+For each converter, you need to add a output folder or/and a input folder if needed (be smart, if there is already a txt named input there is no need to create a input folder)
+the fact is i'm too stupid to figure it out how to add empty folder in a git in github
 
+Go read the correponding README of the converter you want to use, some adds very usefull stuff (but some don't)
 
-png2pdf convert mutiple png into a single pdf
+Something true for all converter is that you need to install the corresponding libraries (the one imported at the beginning of the code), use pip for that
 
-yt2mp3 convert a yt playlist into mutiple mp3 files (got some issues with one of my pc, may not work for you, i need to fix it)
+Quick description of each converter :
 
-mp42mp3 convert mutiple mp4 file into multiple mp3
+-  png2pdf convert mutiple png into a single pdf
+
+-  yt2mp3 convert a yt playlist into mutiple mp3 files (got some issues with one of my pc, may not work for you, i need to fix it)
+
+-  mp42mp3 convert mutiple mp4 file into multiple mp3 (each mp4 file create mutiple mp3 file on its own, one for each audio track)

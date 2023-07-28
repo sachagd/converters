@@ -1,6 +1,3 @@
-For each converter, you need to add a output folder or/and a input folder (be smart, if there is already a txt named input there is no need to create a input folder)
-the fact is i'm too stupid to figure it out how to add empty folder in github
-
 Go read the correponding README of the converter you want to use, some adds very usefull stuff (but some don't)
 
 Something true for all converter is that you need to install the corresponding libraries (the one imported at the beginning of the code), use pip for that

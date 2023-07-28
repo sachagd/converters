@@ -10,9 +10,5 @@ Quick description of each converter :
 -  png2pdf convert mutiple png into a single pdf
 
 -  yt2mp3 convert a yt playlist into mutiple mp3 files :
-  
-      - version 1 ensure that all mp3 file have the same name as the youtube video
-
-      - version 2 is about 35% faster
 
 -  mp42mp3 convert mutiple mp4 file into multiple mp3 (each mp4 file create mutiple mp3 file on its own, one for each audio track)

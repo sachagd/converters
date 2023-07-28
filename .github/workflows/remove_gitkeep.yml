@@ -1,0 +1,18 @@
+name: Remove .gitkeep Files
+on:
+  push:
+    branches:
+      - main  # Adjust this branch name if needed
+  workflow_dispatch:  # This allows manual triggering of the workflow
+
+jobs:
+  remove_gitkeep:
+    runs-on: ubuntu-latest  # You can change the runner platform if needed
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Remove .gitkeep files
+        run: |
+          find . -type f -name ".gitkeep" -exec rm -f {} +

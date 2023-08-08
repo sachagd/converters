@@ -27,7 +27,7 @@ def download_audio(video_url, output_path):
     complete_title = get_complete_video_title(video_url)
     yt = YouTube(video_url)
     audio_stream = yt.streams.filter(only_audio=True).first()
-    output_filename = f"{complete_title}.mp4".replace("\"","'").replace("|","-").replace("/","-")
+    output_filename = f"{complete_title}.mp4".replace("\"","'").replace("|","-").replace("/","-").replace(":","-")
     audio_stream.download(output_path=output_path, filename=output_filename)
     print(f"Audio of '{complete_title}' downloaded successfully.")
         

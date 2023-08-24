@@ -1,6 +1,6 @@
 Go read the correponding README of the converter you want to use, some adds very usefull stuff (but some don't)
 
-Every converter need specifics libraries to be run, execute the corresponding libraries.bat file of the converter you want to use to automatically download everything
+Every converter need specifics libraries to be run, execute the corresponding libraries.bat file of the converter you want to use to automatically download everything (you need pip)
 If there isn't one, it because all libraries used are built-in python libraries
 
 

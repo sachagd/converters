@@ -1,8 +1,8 @@
 from PyPDF2 import PdfMerger
 import os
 
-input_folder = r'input'
-output_folder = r'output' 
+input_folder = 'input'
+output_folder = 'output' 
 
 merger = PdfMerger()
 

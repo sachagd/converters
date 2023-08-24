@@ -1,7 +1,7 @@
 @echo off
 
 REM List of required libraries
-set "LIBRARIES=PyPDF2"
+set "LIBRARIES=PIL"
 
 REM Loop through each library and check if it's installed
 for %%i in (%LIBRARIES%) do (

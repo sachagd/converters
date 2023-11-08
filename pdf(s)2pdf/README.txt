@@ -1,1 +1,1 @@
-Put as many pdf as you want in the input folder, then execute main.py
+Put as many pdf files as you want in the input folder, then execute main.py

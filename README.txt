@@ -8,7 +8,7 @@ Quick description of each converter :
 
 -  png2pdf convert mutiple png into a single pdf
 
--  yt2mp4 convert multiple yt playlists into mutiple mp4 files (Warning : the output files contain only audio and not video)
+-  yt2mp3 convert multiple yt playlists into mutiple mp3 files
 
 -  mp42mp3 convert mutiple mp4 file into multiple mp3 files (each mp4 file create mutiple mp3 file on its own, one for each audio track)
 

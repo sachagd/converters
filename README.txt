@@ -15,7 +15,7 @@ Quick description of each converter :
 -  pdf(s)2pdf merge multiple pdf file into a single pdf file
 
 
-After cloning the git, execute this command before using any converter in the main diretory of the git : 
+After cloning the git, execute this command in the main diretory of the git before using any converter: 
 
 - Windows : del /s /q .gitkeep
 

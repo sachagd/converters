@@ -27,7 +27,7 @@ def download_and_convert(video_url, output_path):
         # Convert to MP3
         input_path = os.path.join(output_path, video_filename)
         subprocess.run(f'ffmpeg -i "{input_path}" -map 0:a:0 -acodec libmp3lame "{os.path.join(output_path, f"{complete_title}.mp3")}"', shell=True, stderr=subprocess.DEVNULL)
-        os.remove(input_path)  # Optional: Remove MP4 file after conversion
+        os.remove(input_path)
         print(f"Audio of '{complete_title}' downloaded successfully.")
         
     except Exception:
